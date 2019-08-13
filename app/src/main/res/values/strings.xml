@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Currency</string>
+    <string name="HI">Hi</string>
+    <string name="PLZ_ENTER">Please enter amount</string>
+    <string name="OK">OK</string>
+    <string name="TYR_LATER">Rates\'s still getting...Plz try later.</string>
+    <string name="NTD">NTD</string>
+    <string name="GO">GO</string>
+    <string name="JP">JP</string>
+    <string name="US">US</string>
+    <string name="NONE">NONE</string>
 </resources>

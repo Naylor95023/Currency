@@ -39,16 +39,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (edInput.getText().length() < 1) {
                     new AlertDialog.Builder(MainActivity.this)
-                            .setTitle("Hi")
-                            .setMessage("Please enter amount")
-                            .setNegativeButton("OK",null)
+                            .setTitle(R.string.HI)
+                            .setMessage(R.string.PLZ_ENTER)
+                            .setNegativeButton(R.string.OK,null)
                             .show();
                 } else {
                     float input =  Float.parseFloat(edInput.getText().toString());
                     float JPrate = currencyEx.getExRate(CurrencyExchanger.CURRENCY.JPY);
                     float USrate = currencyEx.getExRate(CurrencyExchanger.CURRENCY.USD);
                     if(JPrate < 0){
-                        Toast.makeText(MainActivity.this, "Rates's still getting...Plz try later.",Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, R.string.TYR_LATER,Toast.LENGTH_LONG).show();
                     }else{
                         tvJPrate.setText(input / JPrate + "");
                         tvUSrate.setText(input / USrate + "");

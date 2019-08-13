@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">貨幣</string>
+    <string name="HI">你好</string>
+    <string name="PLZ_ENTER">請輸入數量</string>
+    <string name="OK">確認</string>
+    <string name="TYR_LATER">讀取中...請稍候</string>
+    <string name="NTD">臺幣</string>
+    <string name="GO">計算</string>
+    <string name="JP">日圓</string>
+    <string name="US">美金</string>
+    <string name="NONE">無</string>
+</resources>
